@@ -1,0 +1,142 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: roboto, sans-serif;
+}
+
+body{
+    color: #2b283a;
+    display: flex;
+    flex-direction: column;
+    font-size: 17px;
+}
+
+header{
+    background: #fe8335;
+    padding:30px 30px;
+    margin-bottom: 10px;
+    color:white;
+}
+
+section{
+    padding:10px 30px;
+}
+
+#section-tittle{
+    padding-bottom: 10px;;
+}
+
+.hero-img{
+    width:70%;
+    display: block;
+    margin: 0 auto;
+}
+
+.link{
+    color:rgb(241, 24, 24)
+}
+
+#section-description{
+    margin-bottom: 20px;
+}
+
+.btn{
+    text-decoration: none;
+    padding:10px 20px;
+    margin-right:5px;
+    border-radius: 4px;
+}
+
+.btn-buy{
+    background-color: #fe8335;
+    color:white;
+    font-size: bold;
+}
+
+.btn-info{
+    background-color: #facaad;
+    color: #f85f00;
+    font-size: bold;
+}
+
+#second-section{
+    margin-top:20px;
+    padding: 40px 30px;
+    background:#fc7019;
+    color:white;
+}
+
+.img-div{
+    display: flex;
+    flex-wrap: wrap;
+    margin:20px 0;
+    gap: 5px;
+}
+
+.scndSec-imgs{
+    flex-grow: 1;
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+}
+
+#scnd-desc{
+    margin-bottom: 20px;
+}
+
+.btn-about{
+    background:white;
+    color:#f85f00
+}
+
+.btn-contact{
+    background-color: rgba(255, 255, 255, 0.801);
+    color:#f85f00
+}
+
+#end-text{
+    margin-top: 20px;
+}
+
+footer{
+    padding: 50px;
+    text-align: center;
+}
+
+footer p{
+    color:#f85f00
+}
+
+/* galaxy fold*/
+
+@media screen and (max-width:280px) {
+    body{
+
+    }
+
+    .btn{
+        text-decoration: none;
+        padding:10px 5px;
+        margin-right:5px;
+        border-radius: 4px;
+    }
+
+    .scndSec-imgs{
+        flex-grow: 1;
+        width: 200px;
+        height: 200px;
+        object-fit: cover;
+    }
+}
+
+/* big screen*/
+
+@media screen and (min-width:1310px) {
+    .scndSec-imgs{
+        flex-grow: 1;
+        width: 300px;
+        height: 500px;
+        object-fit: cover;
+    }
+}
